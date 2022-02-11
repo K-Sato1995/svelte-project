@@ -1,5 +1,6 @@
 <script>
   import Increment from "./Increment.svelte";
+  import IfStatement from "./IfStatement.svelte";
   export let name;
 </script>
 
@@ -10,6 +11,7 @@
     how to build Svelte apps.
   </p>
   <Increment />
+  <IfStatement testVal={1} />
 </main>
 
 <style>
