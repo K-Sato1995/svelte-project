@@ -1,15 +1,15 @@
 <script>
+  import Increment from "./Increment.svelte";
   export let name;
-  const title = "SVELTE";
 </script>
 
 <main>
   <h1>Hello {name}!</h1>
-  <h2>{title} is Cool</h2>
   <p>
     Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
     how to build Svelte apps.
   </p>
+  <Increment />
 </main>
 
 <style>
