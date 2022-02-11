@@ -1,6 +1,7 @@
 <script>
   import Increment from "./Increment.svelte";
   import IfStatement from "./IfStatement.svelte";
+  import Iteration from "./Iteration.svelte";
   export let name;
 </script>
 
@@ -12,6 +13,7 @@
   </p>
   <Increment />
   <IfStatement testVal={1} />
+  <Iteration />
 </main>
 
 <style>
